@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Home.module.css";
 import swiperImg from "../../assets/planafin.home.swiper-slider.png";
-
+import Header from "../../components/Header/Header";
 function Home() {
   return (
     <div>
+      <Header/>
       <div className={styles.elementorSpaceInner}></div>
       <div className={styles.elementorElement}>
         <div className={styles.elementorWidgetContainer}>
